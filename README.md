@@ -1,14 +1,9 @@
 # Simon-says
 code 
 Simon Game for ESP32 with Score display
-
-   Copyright (C) 2022, Uri Shaked
-
-   Released under the MIT License.
-*/
-
-/* Constants - define pin numbers for LEDs,
-   buttons and speaker, and also the game tones: */
+Copyright (C) 2022, Uri Shaked
+Released under the MIT License.
+Constants - define pin numbers for LEDs,buttons and speaker, and also the game tones: 
 const uint8_t ledPins[] = {2, 5, 18, 19}; // Updated to use ESP32 GPIO pins
 const uint8_t buttonPins[] = {14, 27, 26, 25}; // Button pin assignments
 
